@@ -21,3 +21,10 @@ $ # copy target/release/bfme to PATH
 $ bfme script.bf # execute script.bf
 $ <SOME COMMAND> | bfme - # read from stdin
 ```
+
+Once the interpreter is installed it can be used in brainfuck scripts.
+
+´´´brainfuck
+#!/bin/bfme
+>++++++++[<+++++++++>-]<.>++++[<+++++++>-]<+.+++++++..+++.>>++++++[<+++++++>-]<++.------------.>++++++[<+++++++++>-]<+.<.+++.------.--------.>>>++++[<++++++++>-]<+.
+´´´

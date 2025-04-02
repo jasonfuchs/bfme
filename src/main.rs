@@ -1,3 +1,4 @@
+// Copyright © 2025 Jason Fuchs
 use std::env;
 use std::fs::File;
 use std::io;

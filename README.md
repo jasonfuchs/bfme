@@ -24,7 +24,7 @@ $ <SOME COMMAND> | bfme - # read from stdin
 
 Once the interpreter is installed it can be used in brainfuck scripts.
 
-´´´brainfuck
+```brainfuck
 #!/bin/bfme
 >++++++++[<+++++++++>-]<.>++++[<+++++++>-]<+.+++++++..+++.>>++++++[<+++++++>-]<++.------------.>++++++[<+++++++++>-]<+.<.+++.------.--------.>>>++++[<++++++++>-]<+.
-´´´
+```
